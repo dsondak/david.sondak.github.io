@@ -111,13 +111,13 @@
                                 Solid track record of architecting solutions that exceed client expectations.</p>
                         </section>
 -->
-                        <section class="education">
-                            <h6>Education</h6>
+                        <button class="collapsible">Education</button>
+                        <div class="content">
                             <ol>
                                 <li>
                                     <div>
                                         <p class="sanserif">Ph.D., Aeronautical Engineering</p>
-                                        <time>Aug. 2008 - Aug. 2018</time>
+                                        <time style="text-align:right">Aug. 2008 - Aug. 2018</time>
                                     </div>
                                     <div>
                                         <span>Rensselaer Polytechnic Institute</span>
@@ -154,88 +154,92 @@ Magentohydrodynamics</span>
                                     </div>
                                 </li>
                             </ol>
-                        </section>
-                        <section class="experience">
-                            <h6>Research Experience</h6>
-<!--
-                            <ol>
-                                <li>
-                                    <header>
-                                        <p class="sanserif">Senior Software Engineer</p>
-                                        <time>2016 – Present</time>
-                                    </header>
-                                    <span>Google</span>
-                                    <ul>
-                                        <li>Developed scalable database indexing technology</li>
-                                        <li>Created GraphQL APIs for accessing Google Earth</li>
-                                        <li>Leveraged Waymo datasets to double traffic statistics accuracy</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <header>
-                                        <p class="sanserif">Software Engineer</p>
-                                        <time>2014 – 2016</time>
-                                    </header>
-                                    <span>Facebook</span>
-                                    <ul>
-                                        <li>Collected political affiliation data from millions of users</li>
-                                        <li>Authored user stories and mapped user journeys</li>
-                                        <li>Introduced regression testing to Yoga layout framework</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <header>
-                                        <p class="sanserif">Software Engineer Intern</p>
-                                        <time>2013 – 2014</time>
-                                    </header>
-                                    <span>Twitter</span>
-                                    <ul>
-                                        <li>Analyzed and optimized code coverage across Scala architecture</li>
-                                        <li>Created project environment setup XML files</li>
-                                        <li>Maintained TCP/IP connections with 250,000 concurrent users</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <header>
-                                        <p class="sanserif">Independent iOS Engineer</p>
-                                        <time>2012 – Present</time>
-                                    </header>
-                                    <ul>
-                                        <li>Developed SuperUltraCoolWeather app using AccuWeather API</li>
-                                        <li>Shipped products to more than 1,000,000 daily active users</li>
-                                    </ul>
-                                </li>
-                            </ol>
--->
-                        </section>
-                        <section class="experience">
-                            <h6>Teaching Experience</h6>
-                        </section>
-                        <section class="awards">
-                            <h6>Honors and Awards</h6>
-                        </section>
-                        <section class="outreach">
-                            <h6>Outreach</h6>
-                        </section>
-                        <section class="professional">
-                            <h6>Professional Service</h6>
-                        </section>
-                        <section class="invited-talks">
-                            <h6>Invited Talks</h6>
-                        </section>
-                        <section class="publications">
-                            <h6>Publications</h6>
-                        </section>
-                        <section class="special-programs">
-                            <h6>Special Programs</h6>
-                        </section>
-                        <section class="posters">
-                            <h6>Posters</h6>
-                        </section>
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Research Experience</button>
+                        <div class="content">
+                          Research experience
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Teaching Experience</button>
+                        <div class="content">
+                            Teaching Experience
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Honors and Awards</button>
+                        <div class="content">
+                            Honors and Awards
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Outreach</button>
+                        <div class="content">
+                            Outreach
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Professional Service</button>
+                        <div class="content">
+                            Professional Service
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Invited Talks</button>
+                        <div class="content">
+                            Invited Talks
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Publications</button>
+                        <div class="content">
+                            Publications
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Special Programs</button>
+                        <div class="content">
+                            Special Programs
+                        </div>
+
+                        <br><br>
+
+                        <button class="collapsible">Posters</button>
+                        <div class="content">
+                            Posters
+                        </div>
                     </section>
                 </section>
             </section>
         </section>
+
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+
     </body>
     <!-- Developed by Tom Barrasso. https://barrasso.me -->
 </html>
