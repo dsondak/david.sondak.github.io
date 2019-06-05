@@ -235,45 +235,70 @@ li .fa, li .fab {
   cursor: pointer;
   padding: 10px;
   width: 100%;
+  height: 2%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 20px;
+  font-size: 1.7rem;
   font-weight: 500;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
 }
 
 .active {
-  background-color:white;
-  color:black;
-  border: 2px solid rgb(0, 140, 186);
+  background-color:#f4511e;
+  color:white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  height: 2%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
 }
 
 .collapsible:hover {
   background-color:white;
   color:black;
   border: 2px solid rgb(0, 140, 186);
+  padding: 10px;
+  width: 100%;
+  height: 2%;
+  text-align: left;
+  outline: none;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
 }
 
 .active:hover {
-  background-color:rgb(0, 140, 186);
-  color: white;
+  background-color:white;
+  color: black;
+  border: 2px solid #f4511e;
   cursor: pointer;
   padding: 10px;
   width: 100%;
-  border: none;
+  height: 2%;
   text-align: left;
   outline: none;
-  font-size: 20px;
+  font-size: 1.7rem;
   font-weight: 500;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
 }
 
 .content {
-  padding: 0px;
-  display: none;
-  overflow: visible;
   background-color:white;
+  padding: 10px;
+  display: none;
+  overflow: scroll;
+  height: 325px;
 }
-
 
 .mybutton {
   display: inline-block;
@@ -314,4 +339,7 @@ li .fa, li .fab {
   opacity: 1;
   right: 0;
 }
+
+
+
 
