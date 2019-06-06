@@ -175,13 +175,15 @@ li .fa, li .fab {
     padding: 0;
 }
 
-.experience ol {
+.experience ol, 
+.content ol, {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
 
-.experience ol > li {
+.experience ol > li,
+.content ol > li {
     margin: 0;
     padding: 0;
     flex-basis: 100%;
@@ -192,12 +194,14 @@ li .fa, li .fab {
     font-weight: 300;
 }
 
-.experience ol > li + li {
+.experience ol > li + li, 
+.content ol > li + li {
     margin-top: 1em;
 }
 
 .education ol > li div,
 .content ol > li div,
+.content ol > li header,
 .experience ol > li header {
     display: flex;
     flex-direction: row;
@@ -206,25 +210,31 @@ li .fa, li .fab {
 .experience ol > li > span,
 .education ol > li p,
 .content ol > li p,
+.content ol > li header,
+.content ol > li span,
 .experience ol > li header p {
     font-weight: 400;
 }
 
-.experience ol > li header p {
+.experience ol > li header p,
+.content ol > li header p {
     font-size: 110%;
 }
 
 .education ol > li div > *:last-child,
 .content ol > li div > *:last-child,
+.content ol > li header > *:last-child,
 .experience ol > li header > *:last-child {
     margin-left: auto;
 }
 
-.experience ol > li ul {
+.experience ol > li ul, 
+.content ol > li ul {
     padding-top: 0.5em;
 }
 
-.experience ol > li ul li {
+.experience ol > li ul li, 
+.content ol > li ul li {
     list-style-type: circle;
     margin-left: 1.618em;
 }
@@ -276,6 +286,14 @@ li .fa, li .fab {
   line-height: 1.5;
 }
 
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
 .active:hover {
   background-color:white;
   color: black;
@@ -292,6 +310,10 @@ li .fa, li .fab {
   line-height: 1.5;
 }
 
+.active:after {
+  content: "\2212";
+}
+
 .content {
   background-color:white;
   padding: 10px;
@@ -299,47 +321,4 @@ li .fa, li .fab {
   overflow: scroll;
   height: 325px;
 }
-
-.mybutton {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.mybutton span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.mybutton span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.mybutton:hover span {
-  padding-right: 25px;
-}
-
-.mybutton:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-
 
