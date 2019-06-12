@@ -231,6 +231,11 @@ li .fa, li .fab {
 .experience ol > li ul, 
 .content ol > li ul {
     padding-top: 0.5em;
+    padding-left: 2em;
+}
+
+.content > ol > li > ul > li > ul > li{
+    color: blue;
 }
 
 .experience ol > li ul li, 
