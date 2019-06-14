@@ -234,14 +234,17 @@ li .fa, li .fab {
     padding-left: 2em;
 }
 
-.content > ol > li > ul > li > ul > li{
-    color: blue;
-}
-
-.experience ol > li ul li, 
-.content ol > li ul li {
+.experience ol > li ul li{
     list-style-type: circle;
     margin-left: 1.618em;
+}
+.content ol > li {
+    list-style-type: circle;
+    margin-left: 1.618em;
+}
+.content ol > li > ul li {
+    list-style-type: square;
+    margin-left: 0em;
 }
 
 .collapsible {
