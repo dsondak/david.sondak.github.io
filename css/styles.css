@@ -170,19 +170,22 @@ li .fa, li .fab {
 
 .education ol,
 .content ol,
+.pubs ol,
 .experience ol {
     margin: 0;
     padding: 0;
 }
 
 .experience ol, 
-.content ol, {
+.content ol, 
+.pubs ol {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
 
 .experience ol > li,
+.pubs ol > li,
 .content ol > li {
     margin: 0;
     padding: 0;
@@ -195,13 +198,16 @@ li .fa, li .fab {
 }
 
 .experience ol > li + li, 
+.pubs ol > li + li, 
 .content ol > li + li {
     margin-top: 1em;
 }
 
 .education ol > li div,
 .content ol > li div,
+.pubs ol > li div,
 .content ol > li header,
+.pubs ol > li header,
 .experience ol > li header {
     display: flex;
     flex-direction: row;
@@ -212,11 +218,15 @@ li .fa, li .fab {
 .content ol > li p,
 .content ol > li header,
 .content ol > li span,
+.pubs ol > li p,
+.pubs ol > li header,
+.pubs ol > li span,
 .experience ol > li header p {
     font-weight: 400;
 }
 
 .experience ol > li header p,
+.pubs ol > li header p,
 .content ol > li header p {
     font-size: 110%;
 }
@@ -224,11 +234,14 @@ li .fa, li .fab {
 .education ol > li div > *:last-child,
 .content ol > li div > *:last-child,
 .content ol > li header > *:last-child,
+.pubs ol > li div > *:last-child,
+.pubs ol > li header > *:last-child,
 .experience ol > li header > *:last-child {
     margin-left: auto;
 }
 
 .experience ol > li ul, 
+.pubs ol > li ul, 
 .content ol > li ul {
     padding-top: 0.5em;
     padding-left: 2em;
@@ -245,6 +258,10 @@ li .fa, li .fab {
 .content ol > li > ul li {
     list-style-type: square;
     margin-left: 0em;
+}
+.pubs ol > li {
+    list-style-type: decimal;
+    margin-left: 1.618em;
 }
 
 .collapsible {
