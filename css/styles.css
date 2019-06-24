@@ -347,3 +347,10 @@ li .fa, li .fab {
   height: 500px;
 }
 
+.pubs {
+  background-color:white;
+  padding: 10px;
+  display: none;
+  overflow: scroll;
+  height: 500px;
+}
