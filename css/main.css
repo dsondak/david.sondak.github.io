@@ -54,24 +54,31 @@ ol.a {
   flex: 1;
 }
 .col-md-12:last-child {
-  margin-left: 100px;
+  margin-left: -200px;
 }
 
-.column {
-  float: left;
-  width: 50%;
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
 }
 
-.tri-column {
-  float: left;
-  width: 33.33%;
+img[alt=Picture description] { width: 200px; }
+
+.center-image
+{
+    margin: 0 0 0 0;
+    display: block;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.image-size
+{
+    width: 300px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
