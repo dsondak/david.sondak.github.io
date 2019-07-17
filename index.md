@@ -2,9 +2,10 @@
 title: David Sondak
 layout: default
 ---
+
 <div class="grid">
 <div class="col-md-12" markdown="1">
-# {{ page.title }}
+## {{ page.title }}
 <!--<img height="300px" src="/assets/imgs/david_percy.jpg">-->
 <!--![Picture description](/assets/imgs/david_percy.jpg#right)-->
 ![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
