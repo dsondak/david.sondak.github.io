@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 * {
-    min-height: 0;
-    min-width: 0;
+    min-height: 1000;
+    min-width: 1000;
     box-sizing: border-box;
     transform-origin: 0px 0px 0px;
 }
@@ -47,6 +47,17 @@ body {
 
 /* Misc */
 
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 img {
     max-width: 100%;
 }
@@ -89,14 +100,16 @@ li .fa, li .fab {
 
 #save > section:first-of-type > aside {
     flex-basis: var(--sidebar-width);
-    padding: 0.1618in 0 0.1618in 0.1618in;
+    /**padding: 0.1618in 0 0.1618in 0.1618in;**/
     display: flex;
     flex-direction: column;
 }
 
+/**
 #save > section:first-of-type > aside > section + section {
     margin-top: 2em;
 }
+**/
 
 #save > section:first-of-type > aside > section:last-child {
     margin-top: auto;

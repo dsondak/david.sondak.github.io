@@ -1,12 +1,15 @@
 /* Paper CSS: https://github.com/cognitom/paper-css */
 
 @page { margin: 0 }
-body { margin: 0 }
+/**body { margin: 0 }**/
+body {
+    margin: 60px auto;
+    width: 70%;
+}
 .sheet {
   margin: 0;
   overflow: hidden;
   position: relative;
-  box-sizing: border-box;
   page-break-after: always;
 }
 
@@ -28,12 +31,13 @@ body.legal.landscape  .sheet { width: 357mm; height: 215mm }
 .sheet.padding-20mm { padding: 20mm }
 .sheet.padding-25mm { padding: 25mm }
 
+
 /** For screen preview **/
 @media screen {
-  body { background-color: rgb(83, 86, 89); /*#e0e0e0*/ }
+  /**body { background-color: rgb(83, 86, 89); }**/ /*#e0e0e0*/ 
   .sheet {
     background: white;
-    box-shadow: 0 .5mm 2mm rgba(0,0,0,.5);
+    /**box-shadow: 0 .5mm 2mm rgba(0,0,0,.5);**/
     margin: 5mm auto;
   }
 }
