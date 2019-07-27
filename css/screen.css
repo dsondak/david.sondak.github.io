@@ -1,5 +1,5 @@
 html {
-    padding: 2.4em;
+    padding: 0em;
 }
 
 .sheet {
@@ -9,7 +9,7 @@ html {
 #save > section:first-of-type > aside {
     /**background-color: #f5f5f5;**/
     background-color: white;
-    border-right-width: 3px;
+    border-right-width: 2px;
     border-right-style: solid;
     border-right-color: rgba(119, 119, 119, .5);
 }

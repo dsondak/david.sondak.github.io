@@ -3,7 +3,7 @@ title: Publications
 layout: default
 ---
 
-### {{ page.title }}
+### _{{ page.title }}_
 
 #### Preprints
 <ol reversed>
