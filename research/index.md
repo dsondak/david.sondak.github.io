@@ -10,7 +10,7 @@ turbulence modeling.
 ### Data-Driven Modeling and Machine Learning
 <div class="grid" markdown="1">
 <div class="col-md-12" markdown="1">
-![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
+![Picture description](/assets/imgs/latent_dims.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-md-12" markdown="1">
 Description of the research.
@@ -41,7 +41,7 @@ P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
 ### Thermal Convection
 <div class="grid" markdown="1">
 <div class="col-md-12" markdown="1">
-![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
+![Picture description](/assets/imgs/T.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-md-12" markdown="1">
 Description of the research.
@@ -63,7 +63,7 @@ Description of the research.
 ### Magnetohydrodynamics
 <div class="grid" markdown="1">
 <div class="col-md-12" markdown="1">
-![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
+![Picture description](/assets/imgs/V-B_I.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-md-12" markdown="1">
 Description of the research.
@@ -91,10 +91,10 @@ Description of the research.
 
 ---
 
-### Related Projects
+### Other Projects and Collaborations
 <div class="grid" markdown="1">
 <div class="col-md-12" markdown="1">
-![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
+![Picture description](/assets/imgs/figs_U_mixedbc.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-md-12" markdown="1">
 Description of the research.
@@ -103,7 +103,7 @@ Description of the research.
 </div>
 </div>
 
-#### Other Projects and Collaborations
+#### Relevant publications
 <ol reversed>
    <li>
       Can phoretic particles swim in two dimensions?, D.Sondak, C.Hawley, S.Heng, R.Vinsonhaler, E.Lauga, J.-L.
