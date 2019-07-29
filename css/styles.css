@@ -120,7 +120,7 @@ li .fa, li .fab {
 
 #save > section:first-of-type > aside {
     flex-basis: var(--sidebar-width);
-    /**padding: 0.1618in 0 0.1618in 0.1618in;**/
+    padding: 0.1618in 0 0.1618in 0.1618in;
     display: flex;
     flex-direction: column;
 }
@@ -137,6 +137,7 @@ li .fa, li .fab {
     flex-basis: var(--main-width);
     display: flex;
     flex-direction: column;
+    padding-left: 0.1618in;
 }
 
 #save > section:first-of-type > section > header {
@@ -385,3 +386,25 @@ li .fa, li .fab {
   overflow: scroll;
   height: 500px;
 }
+
+.cvbutton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: 2px solid #f44336;
+}
+
+.cvbutton:hover {background-color: white}
+
+.cvbutton:active {
+  background-color: white;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
