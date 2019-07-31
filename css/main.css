@@ -61,15 +61,8 @@ ol.a {
   display: flex;
  }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .col-md-12 {
- /* flex: 1; */
+ flex: 1;
  float: left;
  width: 50%;
  padding: 10px;
@@ -104,11 +97,26 @@ img[alt=Picture description] { width: 200px; }
     width: 500px;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 45%;}
+.col-2 {width: 45%;}
+
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-md-12 {
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
     width: 100%;
   }
 
 }
-

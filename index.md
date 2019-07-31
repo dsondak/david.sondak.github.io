@@ -3,14 +3,12 @@ title: David Sondak
 layout: default
 ---
 
-<div class="grid">
-<div class="col-md-12" markdown="1">
+<div class="row">
+<div class="col-1" markdown="1">
 ## {{ page.title }}
-<!--<img height="300px" src="/assets/imgs/david_percy.jpg">-->
-<!--![Picture description](/assets/imgs/david_percy.jpg#right)-->
 ![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
 </div>
-<div class="col-md-12" markdown="1">
+<div class="col-2" markdown="1">
 I am a Lecturer in the Institute for Applied Computational Science (IACS) at Harvard University where I conduct research and teach
 classes.
 
@@ -42,4 +40,7 @@ Email: dsondak@seas.harvard.edu
 Office:  Maxwell-Dworkin G111
 
 Github: github.com/dsondak 
+
+<img height="300px" src="/assets/imgs/david_percy.jpg">
+![Picture description](/assets/imgs/david_percy.jpg#right)
 -->

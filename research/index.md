@@ -8,11 +8,11 @@ The research topics here are listed by primary areas of focus.  A major research
 turbulence modeling.
 
 ### Data-Driven Modeling and Machine Learning
-<div class="grid" markdown="1">
-<div class="col-md-12" markdown="1">
+<div class="row" markdown="1">
+<div class="col-1" markdown="1">
 ![Picture description](/assets/imgs/latent_dims.jpg){: .center-image .research-image-size }
 </div>
-<div class="col-md-12" markdown="1">
+<div class="col-2" markdown="1">
 Description of the research.
 
 
@@ -39,11 +39,11 @@ P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
 
 
 ### Thermal Convection
-<div class="grid" markdown="1">
-<div class="col-md-12" markdown="1">
+<div class="row" markdown="1">
+<div class="col-1" markdown="1">
 ![Picture description](/assets/imgs/T.jpg){: .center-image .research-image-size }
 </div>
-<div class="col-md-12" markdown="1">
+<div class="col-2" markdown="1">
 Description of the research.
 
 
@@ -61,11 +61,11 @@ Description of the research.
 ---
 
 ### Magnetohydrodynamics
-<div class="grid" markdown="1">
-<div class="col-md-12" markdown="1">
+<div class="row" markdown="1">
+<div class="col-1" markdown="1">
 ![Picture description](/assets/imgs/V-B_I.jpg){: .center-image .research-image-size }
 </div>
-<div class="col-md-12" markdown="1">
+<div class="col-2" markdown="1">
 Description of the research.
 
 
@@ -92,11 +92,11 @@ Description of the research.
 ---
 
 ### Other Projects and Collaborations
-<div class="grid" markdown="1">
-<div class="col-md-12" markdown="1">
+<div class="row" markdown="1">
+<div class="col-1" markdown="1">
 ![Picture description](/assets/imgs/figs_U_mixedbc.jpg){: .center-image .research-image-size }
 </div>
-<div class="col-md-12" markdown="1">
+<div class="col-2" markdown="1">
 Description of the research.
 
 
