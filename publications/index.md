@@ -7,11 +7,11 @@ layout: default
 
 #### Preprints
 <ol reversed>
-   <li>
+   <li markdown="1">
    Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
 P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
    </li>
-   <li>
+   <li markdown="1">
    Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,
    E. Kaxiras, arXiv:1904.08991, 2019
    </li>

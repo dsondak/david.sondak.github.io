@@ -3,9 +3,10 @@ title: David Sondak
 layout: default
 ---
 
+## {{ page.title }}
+
 <div class="row">
 <div class="col-1 col-s-1" markdown="1">
-## {{ page.title }}
 ![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
 </div>
 <div class="col-2 col-s-2" markdown="1">
