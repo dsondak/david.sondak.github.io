@@ -22,7 +22,7 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
 /* Page Variables */
 
 :root {
-    --main-width: 74%;
+    --main-width: 65%;
     --sidebar-width: calc(100% - var(--main-width));
 }
 
@@ -308,7 +308,7 @@ li .fa, li .fab {
   border: 2px solid;
   text-align: left;
   outline: none;
-  font-size: 1.25rem;
+  /*font-size: 1.25rem;*/
   margin-bottom: 10px;
   /*font-weight: 500;*/
   /*letter-spacing: -.05rem;*/
