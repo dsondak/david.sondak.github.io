@@ -22,8 +22,12 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
 /* Page Variables */
 
 :root {
+    --main-width: 100%;
+    --sidebar-width: 0%;
+    /*
     --main-width: 75%;
     --sidebar-width: calc(100% - var(--main-width));
+    */
 }
 
 /**
@@ -314,7 +318,7 @@ li .fa, li .fab, li .ai {
   /*letter-spacing: -.05rem;*/
   /*line-height: 1.5;*/
   font-size: 1.25rem;
-  width: 100%;
+  text-align: center;
 }
 
 .active {
@@ -333,7 +337,7 @@ li .fa, li .fab, li .ai {
   /*font-weight: 500;*/
   /*letter-spacing: -.05rem;*/
   /*line-height: 1.5;*/
-  width: 100%;
+  text-align: center;
 }
 
 .collapsible:hover {
@@ -341,7 +345,6 @@ li .fa, li .fab, li .ai {
   color:black;
   border: 2px solid rgb(0, 140, 186);
   padding: 10px;
-  width: 100%;
   height: 7%;
   text-align: left;
   outline: none;
@@ -350,14 +353,16 @@ li .fa, li .fab, li .ai {
   /*letter-spacing: -.05rem;*/
   /*line-height: 1.5;*/
   width: 100%;
+  text-align: center;
 }
 
 .collapsible:after {
   content: '\002B';
-  color: white;
+  color: black;
   font-weight: bold;
   float: right;
   margin-left: 5px;
+  text-align: center;
 }
 
 .active:hover {
@@ -366,7 +371,6 @@ li .fa, li .fab, li .ai {
   border: 2px solid #f4511e;
   cursor: pointer;
   padding: 10px;
-  width: 100%;
   height: 7%;
   text-align: left;
   outline: none;
@@ -375,6 +379,7 @@ li .fa, li .fab, li .ai {
   /*letter-spacing: -.05rem;*/
   /*line-height: 1.5;*/
   width: 100%;
+  text-align: center;
 }
 
 .active:after {
