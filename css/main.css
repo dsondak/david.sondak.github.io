@@ -42,7 +42,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1.4em;
     color: #333;
 }
@@ -101,6 +101,11 @@ ol.a {
   /* For tablets: */
   .col-s-1 {width: 100%;}
   .col-s-2 {width: 100%;}
+
+  nav ul li, footer ul li {
+      display: inline;
+      margin-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
