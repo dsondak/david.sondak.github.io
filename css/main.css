@@ -26,8 +26,9 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
+    width: 100%;
 }
 a {
     text-decoration: none;
@@ -52,12 +53,12 @@ footer {
 nav {
     border-bottom: 1px solid #d5d5d5;
 }
-.fa, .fab {
+.fa, .fab, .ai {
     text-align: center;
     min-width: 1em;
 }
 
-li .fa, li .fab {
+li .fa, li .fab, li .ai {
     margin-right: 0.3em;
 }
 
@@ -106,4 +107,10 @@ ol.a {
   /* For desktop: */
   .col-1 {width: 40%;}
   .col-2 {width: 60%;}
+
+  nav ul li, footer ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+
 }
