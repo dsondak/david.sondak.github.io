@@ -415,7 +415,7 @@ li .fa, li .fab, li .ai {
   color: black;
   background-color: white;
   border: 2px solid #f44336;
-  width: 100%;
+  width: 50%;
 }
 
 .cvbutton:hover {background-color: white}
