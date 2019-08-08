@@ -2,7 +2,6 @@
 title: David Sondak
 layout: default
 ---
-
 ## {{ page.title }}
 
 <div class="row">

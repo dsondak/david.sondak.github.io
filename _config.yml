@@ -7,12 +7,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dsondak
 
 # Build settings
-#markdown: kramdown
-#kramdown:
-# input: GFM
-# auto_ids: true
-# hard_wrap: false
-# syntax_highlighter: rouge
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
 
-markdown: CommonMarkGhPages
+#markdown: CommonMarkGhPages
 theme: minima
