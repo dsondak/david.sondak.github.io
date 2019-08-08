@@ -363,7 +363,7 @@ li .fa, li .fab, li .ai {
   color: black;
   background-color: white;
   border: 2px solid #f44336;
-  width: 50%;
+  width: 100%;
 }
 
 .cvbutton:hover {background-color: white}
@@ -393,6 +393,20 @@ li .fa, li .fab, li .ai {
   nav ul li, footer ul li {
       display: inline;
       margin-right: 20px;
+  }
+
+  .cvbutton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: 2px solid #f44336;
+    width: 50%;
   }
 
 }
