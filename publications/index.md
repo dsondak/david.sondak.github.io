@@ -3,9 +3,9 @@ title: Publications
 layout: default
 ---
 
-### _{{ page.title }}_
+## {{ page.title }}
 
-#### Preprints
+### Preprints
 <ol reversed>
    <li>
    Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
@@ -17,7 +17,7 @@ P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
    </li>
 </ol>
 
-#### Journal Papers
+### Journal Papers
 
 <ol reversed>
    <li>
@@ -57,7 +57,7 @@ P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
    </li>
 </ol>
 
-#### Peer-reviewed Conference Proceedings
+### Peer-reviewed Conference Proceedings
 <ol reversed>
 <li>
 An Inadequacy Formulation for an Uncertain Flamelet Model, D.Sondak, T.Oliver, C.Simmons,
