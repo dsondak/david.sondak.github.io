@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>David Sondak | David Sondak's Homepage</title>
+    <title>{{ page.title }} | {{ site.title  }}</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta name="google" content="notranslate" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/paper.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/typography.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/screen.css" />
   </head>
   <body>
     <nav>
@@ -22,54 +25,8 @@
         <li><a href="/cv">CV</a></li>
       </ul>
     </nav>
-    <div class="container">
+    {{ content  }}
 
-      <h2 id="david-sondak">David Sondak</h2>
-<div class="row">
-<div class="col-1 col-s-1" markdown="1">
-![Picture description](/assets/imgs/david_percy.jpg){: .center-image .image-size }
-</div>
-<div class="col-2 col-s-2" markdown="1">
-<p>
-I am a Lecturer in the Institute for Applied Computational Science (IACS) at Harvard University where I conduct research and teach
-classes.
-</p>
-<p>
-My research is at the intersection of applied mathematics, physics, and machine learning with an emphasis on fluid
-mechanics and multiscale phenomena.
-</p>
-<p>
-At IACS, I teach classes on basic software principles (CS207) and extreme computing
-(AC290r).  I have also led a version of the capstone course (AC297r) which requires students to work closely with industrial
-and academic partners to solve real-world problems.
-</p>
-</div>
-</div>
-<!--
-  <div class="col-md-12" markdown="1">
-## Teaching Interests
-* Classes
-  * Applied mathematics (PDEs, ODEs)
-  * Numerical methods and analysis
-  * Fluid mechanics
-  * Scientific software
-* Interactive learning
-</div>
--->
-<!--
-### Contact
-Email: dsondak@seas.harvard.edu 
-
-Office:  Maxwell-Dworkin G111
-
-Github: github.com/dsondak 
-
-<img height="300px" src="/assets/imgs/david_percy.jpg">
-![Picture description](/assets/imgs/david_percy.jpg#right)
--->
-
-
-    </div><!-- /.container -->
     <footer>
     <ul>
       <li><i class="fa fa-envelope" title="Email"></i><a href="mailto:dsondak@seas.harvard.edu">dsondak (at) seas.harvard.edu</a></li>
@@ -78,5 +35,25 @@ Github: github.com/dsondak
       <li><i class="fa fa-map-marker-alt" title="Location"></i><a href="https://goo.gl/maps/RYDWryHmctRp1RQ6A">Maxwell-Dworkin G111</a></li>
     </ul>
     </footer>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    </script>
+
+
   </body>
 </html>
