@@ -354,7 +354,7 @@ li .fa, li .fab, li .ai {
 
 .cvbutton {
   display: inline-block;
-  padding: 15px 25px;
+  /*padding: 15px 25px;*/
   font-size: 24px;
   cursor: pointer;
   text-align: center;
@@ -406,7 +406,7 @@ li .fa, li .fab, li .ai {
     color: black;
     background-color: white;
     border: 2px solid #f44336;
-    width: 50%;
+    width: 30%;
   }
 
 }
