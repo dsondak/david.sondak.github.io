@@ -13,8 +13,10 @@ turbulence modeling.
 ![Picture description](/assets/imgs/latent_dims.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-2 col-s-2" markdown="1">
-Description of the research.
-
+At the heart of research in multiscale phenomena and fluid mechanics is the desire to find reliable, reduced models that can
+be used to make predictions of scientific and engineering interest.  New statistical algorithms emerging from the machine
+learning community provide a new perspective on developing turbulence models.  Developing new machine learning models
+provides an avenue to perform computations with data and understand the effects of uncertainties in models.
 
 </div>
 </div>
@@ -38,14 +40,18 @@ P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
 ---
 
 
-### Thermal Convection
+### Multiscale Physical Systems
 <div class="row" markdown="1">
 <div class="col-1 col-s-1" markdown="1">
 ![Picture description](/assets/imgs/T.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-2 col-s-2" markdown="1">
-Description of the research.
-
+Multiscale phenomena are common in everyday life and engineering systems.  Fluid systems in particular exhibit multiple
+spatial and temporal scales.  The quintessential example of a multiscale phenomenon in fluid mechanics is turbulence --- the
+disordered, seemingly random, motion of a fast-moving fluid.  Much of my research in this area has focused on developing
+turbulence models for a variety of fluid systems including Rayleigh-Benard convection and magnetohydrodynamics.  I have also
+found exact coherent structures in Rayleigh-Benard convection that optimize heat transport and provide an upper bound on the
+actual turbulent heat transport.
 
 </div>
 </div>
@@ -56,24 +62,6 @@ Description of the research.
       The effect of Prandtl number on optimal scaling laws in Rayleigh-Bénard convection, D.Sondak, F.Waleffe,
    L.M.Smith, Journal of Fluid Mechanics, 784, 565-595, 2015
    </li>
-</ol>
-
----
-
-### Magnetohydrodynamics
-<div class="row" markdown="1">
-<div class="col-1 col-s-1" markdown="1">
-![Picture description](/assets/imgs/V-B_I.jpg){: .center-image .research-image-size }
-</div>
-<div class="col-2 col-s-2" markdown="1">
-Description of the research.
-
-
-</div>
-</div>
-
-#### Relevant publications
-<ol reversed>
    <li>
       A new class of finite element variational multiscale turbulence models for incompressible magnetohydrodynamics,
    D.Sondak, J.N.Shadid, A.A.Oberai, R.P.Pawlowski, E.C.Cyr, T.M.Smith, Journal of Computational Physics,
@@ -87,7 +75,27 @@ Description of the research.
       LES models for incompressible magnetohydrodynamics derived from the variational multiscale formulation, D.
    Sondak and A.A. Oberai, Physics of Plasmas, 19(10), 102308, 2012.
    </li>
+   <li>
+      Application of the variational Germano identity to the variational multiscale formulation, A.A. Oberai and D.
+   Sondak, International Journal for Numerical Methods in Biomedical Engineering, 27(2), 335-344, 2011.
+   </li>
 </ol>
+
+---
+
+<!--
+### Magnetohydrodynamics
+<div class="row" markdown="1">
+<div class="col-1 col-s-1" markdown="1">
+![Picture description](/assets/imgs/V-B_I.jpg){: .center-image .research-image-size }
+</div>
+<div class="col-2 col-s-2" markdown="1">
+Description of the research.
+
+
+</div>
+</div>
+-->
 
 ---
 
@@ -113,10 +121,6 @@ Description of the research.
       Remediation of time-delay effects in tokamak axisymmetric control loops by optimal tuning and robust predictor
    augmentation, D. Sondak, R.Arastoo, E. Schuster, M.L.Walker, Fusion Engineering and Design, 86(6), 1112–1115,
    2011.
-   </li>
-   <li>
-      Application of the variational Germano identity to the variational multiscale formulation, A.A. Oberai and D.
-   Sondak, International Journal for Numerical Methods in Biomedical Engineering, 27(2), 335-344, 2011.
    </li>
    <li>
       Optimal Tuning of Tokamak Plasma Equilibrium Controllers in the Presence of Time Delays, E. Schuster, D.
