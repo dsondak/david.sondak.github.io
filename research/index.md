@@ -66,8 +66,6 @@ Description of the research.
 </div>
 -->
 
----
-
 ### Data-Driven Modeling and Machine Learning
 <div class="row" markdown="1">
 <div class="col-1 col-s-1" markdown="1">
