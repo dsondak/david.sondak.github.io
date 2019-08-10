@@ -3,47 +3,13 @@ title: Research Projects
 layout: default
 ---
 
-### _{{ page.title }}_
-The research topics here are listed by primary areas of focus.  A major research thrust running through these areas is
-turbulence modeling.
-
-### Data-Driven Modeling and Machine Learning
-<div class="row" markdown="1">
-<div class="col-1 col-s-1" markdown="1">
-![Picture description](/assets/imgs/latent_dims.jpg){: .center-image .research-image-size }
-</div>
-<div class="col-2 col-s-2" markdown="1">
-At the heart of research in multiscale phenomena and fluid mechanics is the desire to find reliable, reduced models that can
-be used to make predictions of scientific and engineering interest.  New statistical algorithms emerging from the machine
-learning community provide a new perspective on developing turbulence models.  Developing new machine learning models
-provides an avenue to perform computations with data and understand the effects of uncertainties in models.
-
-</div>
-</div>
-
-#### Relevant publications
-<ol reversed>
-   <li>
-   Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
-P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
-   </li>
-   <li>
-   Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,
-   E. Kaxiras, arXiv:1904.08991, 2019
-   </li>
-   <li>
-   An Inadequacy Formulation for an Uncertain Flamelet Model, D.Sondak, T.Oliver, C.Simmons,
-   R.D.Moser, 19th AIAA Non-Deterministic Approaches Conference, 2017
-   </li>
-</ol>
-
----
-
+## {{ page.title }}
 
 ### Multiscale Physical Systems
 <div class="row" markdown="1">
 <div class="col-1 col-s-1" markdown="1">
 ![Picture description](/assets/imgs/T.jpg){: .center-image .research-image-size }
+![Picture description](/assets/imgs/V-B_I.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-2 col-s-2" markdown="1">
 Multiscale phenomena are common in everyday life and engineering systems.  Fluid systems in particular exhibit multiple
@@ -51,7 +17,10 @@ spatial and temporal scales.  The quintessential example of a multiscale phenome
 disordered, seemingly random, motion of a fast-moving fluid.  Much of my research in this area has focused on developing
 turbulence models for a variety of fluid systems including Rayleigh-Benard convection and magnetohydrodynamics.  I have also
 found exact coherent structures in Rayleigh-Benard convection that optimize heat transport and provide an upper bound on the
-actual turbulent heat transport.
+actual turbulent heat transport.  Ongoing research aims to find the signature of these optimal solutions in actual turbulent
+flows.  The emerging field of machine learning is a good candidate to search for such solutions.  An aim of my future
+research is to apply and extend these models to complex physical systems including geophysical flows (e.g.
+magnetoconvection).
 
 </div>
 </div>
@@ -99,13 +68,50 @@ Description of the research.
 
 ---
 
+### Data-Driven Modeling and Machine Learning
+<div class="row" markdown="1">
+<div class="col-1 col-s-1" markdown="1">
+![Picture description](/assets/imgs/latent_dims.jpg){: .center-image .research-image-size }
+</div>
+<div class="col-2 col-s-2" markdown="1">
+At the heart of research in multiscale phenomena and fluid mechanics is the desire to find reliable, reduced models that can
+be used to make predictions of scientific and engineering interest.  New statistical algorithms emerging from the machine
+learning community provide a new perspective on developing turbulence models.  Developing new machine learning models
+provides an avenue to perform computations with data and understand the effects of uncertainties in models and their
+prediction.  My primary focus in this area has been on how to build physics into data-driven algorithms.  This approach has
+the benefit of leading to more reliable predictions in parameter regimes for which data is unavailable and better-performing
+algorithms.
+
+</div>
+</div>
+
+#### Relevant publications
+<ol reversed>
+   <li>
+   Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
+P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
+   </li>
+   <li>
+   Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,
+   E. Kaxiras, arXiv:1904.08991, 2019
+   </li>
+   <li>
+   An Inadequacy Formulation for an Uncertain Flamelet Model, D.Sondak, T.Oliver, C.Simmons,
+   R.D.Moser, 19th AIAA Non-Deterministic Approaches Conference, 2017
+   </li>
+</ol>
+
+---
+
+
 ### Other Projects and Collaborations
 <div class="row" markdown="1">
 <div class="col-1 col-s-1" markdown="1">
 ![Picture description](/assets/imgs/figs_U_mixedbc.jpg){: .center-image .research-image-size }
 </div>
 <div class="col-2 col-s-2" markdown="1">
-Description of the research.
+I genuinly enjoy collaborating with researchers from outside my traditional field of expertise.  It is a fun challenge to
+bring my domain knowledge to bear on interesting research areas to see what new things can be uncovered together.
 
 
 </div>
