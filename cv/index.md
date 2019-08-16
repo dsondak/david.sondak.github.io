@@ -487,7 +487,7 @@ layout: cv
     </ol>
 </div>
 
-<button class="collapsible">Publications</button>
+<button class="collapsible">Peer-Reviewed Publications</button>
 <div class="pubs">
     <ol reversed>
        <li>
