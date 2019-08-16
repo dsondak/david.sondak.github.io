@@ -314,7 +314,7 @@ layout: cv
                 <p >Harvard pi-Day Talk</p>
                 <time>March 14, 2018</time>
             </header>
-            <p> Gave a short talk to Harvard staff on the significance of , why we should care, and how to have fun with it. </p>
+            <p> Gave a short talk to Harvard staff on the significance of pi, why we should care, and how to have fun with it. </p>
         </li>
         <li>
             <header>
