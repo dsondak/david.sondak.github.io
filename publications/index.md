@@ -8,10 +8,6 @@ layout: default
 ### Preprints
 <ol reversed>
    <li>
-   Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
-P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
-   </li>
-   <li>
    Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,
    E. Kaxiras, arXiv:1904.08991, 2019
    </li>
@@ -20,6 +16,10 @@ P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
 ### Journal Papers
 
 <ol reversed>
+   <li>
+   Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
+P.Protopapas, S.Succi, To appear in the Journal of Turbulence
+   </li>
    <li>
       Can phoretic particles swim in two dimensions?, D.Sondak, C.Hawley, S.Heng, R.Vinsonhaler, E.Lauga, J.-L.
    Thiffeault, Physical Review E, 94, 062606, 2016
