@@ -18,7 +18,7 @@ layout: default
 <ol reversed>
    <li>
    Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
-P.Protopapas, S.Succi, To appear in the Journal of Turbulence
+P.Protopapas, S.Succi, Journal of Turbulence, 1-19, 2019, doi: 10.1080/14685248.2019.1706742 
    </li>
    <li>
       Can phoretic particles swim in two dimensions?, D.Sondak, C.Hawley, S.Heng, R.Vinsonhaler, E.Lauga, J.-L.
