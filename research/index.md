@@ -52,20 +52,6 @@ magnetoconvection).
 
 ---
 
-<!--
-### Magnetohydrodynamics
-<div class="row" markdown="1">
-<div class="col-1 col-s-1" markdown="1">
-![Picture description](/assets/imgs/V-B_I.jpg){: .center-image .research-image-size }
-</div>
-<div class="col-2 col-s-2" markdown="1">
-Description of the research.
-
-
-</div>
-</div>
--->
-
 ### Data-Driven Modeling and Machine Learning
 <div class="row" markdown="1">
 <div class="col-1 col-s-1" markdown="1">
@@ -85,9 +71,13 @@ algorithms.
 
 #### Relevant publications
 <ol reversed>
+  <li>
+    Finding Multiple Solutions of ODEs with Neural Networks, M.Di Giovanni, D.Sondak, P.Protopapas, M.Brambilla, Association
+for the Advancement of Artificial Intelligence Symposium on Machine Learning with Physics Sciences, 2020
+  </li>
    <li>
-   Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
-P.Protopapas, S.Succi, Submitted to the Journal of Turbulence
+    Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
+P.Protopapas, S.Succi, Journal of Turbulence, 1-19, 2019, doi: 10.1080/14685248.2019.1706742 
    </li>
    <li>
    Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,

@@ -5,19 +5,29 @@ layout: default
 
 ## {{ page.title }}
 
-### Preprints
+### In Preparation
 <ol reversed>
    <li>
-   Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,
+    Physical Symmetries Embedded in Neural Networks, M. Mattheakis, P. Protopapas, D. Sondak, M. Di Giovanni,
    E. Kaxiras, arXiv:1904.08991, 2019
    </li>
+
+   <li>
+    Optimal Heat-Transport Solutions and Transition to Turbulence in Two-Dimensional Rayleigh-Benard Convection, P. Kooloth, D. Sondak, L.M.Smith
+   </li>
+
+   <li>
+    High Rayleigh number variational multiscale large eddy simulations of Rayleigh-Bénard Convection, D. Sondak, T.M.Smith,
+S.Conde, R.Pawlowski, J.N.Shadid, to be submitted to Mechanics Research Communications
+   </li>
+
 </ol>
 
 ### Journal Papers
 
 <ol reversed>
    <li>
-   Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
+    Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
 P.Protopapas, S.Succi, Journal of Turbulence, 1-19, 2019, doi: 10.1080/14685248.2019.1706742 
    </li>
    <li>
@@ -59,8 +69,12 @@ P.Protopapas, S.Succi, Journal of Turbulence, 1-19, 2019, doi: 10.1080/14685248.
 
 ### Peer-reviewed Conference Proceedings
 <ol reversed>
-<li>
-An Inadequacy Formulation for an Uncertain Flamelet Model, D.Sondak, T.Oliver, C.Simmons,
-R.D.Moser, 19th AIAA Non-Deterministic Approaches Conference, 2017
-</li>
+  <li>
+    Finding Multiple Solutions of ODEs with Neural Networks, M.Di Giovanni, D.Sondak, P.Protopapas, M.Brambilla, Association
+for the Advancement of Artificial Intelligence Symposium on Machine Learning with Physics Sciences, 2020
+  </li>
+  <li>
+    An Inadequacy Formulation for an Uncertain Flamelet Model, D.Sondak, T.Oliver, C.Simmons,
+  R.D.Moser, 19th AIAA Non-Deterministic Approaches Conference, 2017
+  </li>
 </ol>
