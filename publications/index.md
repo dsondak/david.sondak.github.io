@@ -18,7 +18,7 @@ layout: default
 
    <li>
     High Rayleigh number variational multiscale large eddy simulations of Rayleigh-Bénard Convection, D. Sondak, T.M.Smith,
-S.Conde, R.Pawlowski, J.N.Shadid, to be submitted to Mechanics Research Communications
+S.Conde, R.Pawlowski, J.N.Shadid, submitted to Mechanics Research Communications
    </li>
 
 </ol>
@@ -26,6 +26,10 @@ S.Conde, R.Pawlowski, J.N.Shadid, to be submitted to Mechanics Research Communic
 ### Journal Papers
 
 <ol reversed>
+   <li>
+    NeuroDiffEq: A Python package for solving differential equations with neural networks, F.Chen, D.Sondak, P.Protopapas,
+M.Mattheakis, S.Liu, D.Agarwal, M.DiGiovanni, Journal of Open Source Software, 5(46), 1931, 2020
+   </li>
    <li>
     Neural Network Models for the Anisotropic Reynolds Stress Tensor in Turbulent Channel Flow, R.Fang, D.Sondak,
 P.Protopapas, S.Succi, Journal of Turbulence, 1-19, 2019, doi: 10.1080/14685248.2019.1706742 
